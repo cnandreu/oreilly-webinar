@@ -1,0 +1,21 @@
+{
+  "name": "5ApacheCordova",
+  "version": "0.0.1",
+  "authors": [
+    "Carlos Andreu"
+  ],
+  "license": "Apache License v2.0",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.0.8",
+    "angular-resource": "~1.0.8",
+    "bootstrap": "~3.0.0"
+  }
+}

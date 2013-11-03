@@ -1,0 +1,17 @@
+<h1>{{data.title}}</h1>
+
+<input type="text" placeholder="Filter contacts" ng-model="search"/>
+
+<ul>
+  <li class="contact-list" ng-repeat="contact in data.contacts | filter:search">
+    {{contact.name}}
+
+    <a href="#/view/{{contact._id}}">[View]</a>
+
+    <a href="#/edit/{{contact._id}}">[Edit]</a>
+
+     <a href ng-click="fn.remove(contact._id)">[Remove]</a>
+  </li>
+</ul>
+
+<p><a href="#/add">Add</a></p>

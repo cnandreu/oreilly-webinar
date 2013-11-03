@@ -1,0 +1,19 @@
+{
+  "name": "3NodeExpressMongojQuery",
+  "version": "0.0.1",
+  "authors": [
+    "Carlos Andreu"
+  ],
+  "license": "Apache License v2.0",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.0.3"
+  }
+}
